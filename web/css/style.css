@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bowlby One SC', cursive;
+}
+
+.title {
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 0 35px 100px;
+}
+
+.unactive {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.container {
+    width: 100wh;
+    height: 100vh;
+    background: url(../img/original.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.swapi {
+    width: 400px;
+    height: 400px;
+    font-size: 20px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.details {
+    width: 400px;
+    height: 400px;
+    background: url(../img/Battle_of_Yavin_OFL.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(180, 26, 26, 0.5);
+}
+
+.details span {
+    padding: 40px 35px 20px;
+    font-size: 19px;
+    color: rgb(12, 12, 12);
+}
+
+.modP {
+    padding-top: 50px;
+    color: rgb(241, 242, 247);
+}
+
+.modP p {
+    font-size: 16px;
+    padding: 0 0 10px 80px;
+}
+
+#closeButton {
+    cursor: pointer;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.numbers {
+    margin: 0 0 0 40%;
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#title {
+    font-size: 32px;
+    text-transform: uppercase;
+    margin: 50px;
+}
+
+td:hover,
+.numbersHover:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    color: red;
+    transition: 0.3s linear;
+}
+
+td {
+    display: flex;
+    justify-content: space-between;
+    align-content: ;
+}
+
+td span {
+    font-size: 14px;
+}
